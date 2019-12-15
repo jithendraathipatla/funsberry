@@ -152,32 +152,32 @@ let win = $(window).width();
 
 if(win < 420){
   $("#bc").click(function(){
-    $("html, body" ).animate({scrollTop:1790}, 'slow');
+    $("html, body" ).animate({scrollTop:1920}, 'slow');
     return false;
   });
 
   $("#cd").click(function(){
-    $("html, body" ).animate({scrollTop:2600}, 'slow');
+    $("html, body" ).animate({scrollTop:2730}, 'slow');
     return false;
   })
  
   $("#ij").click(function(){
-    $("html, body" ).animate({scrollTop:2950}, 'slow');
+    $("html, body" ).animate({scrollTop:3080}, 'slow');
     return false;
   });
 
   $("#ef").click(function(){
-    $("html, body" ).animate({scrollTop:4600}, 'slow');
+    $("html, body" ).animate({scrollTop:5030}, 'slow');
     return false;
   });
 
   $("#fg").click(function(){
-    $("html, body" ).animate({scrollTop:5150}, 'slow');
+    $("html, body" ).animate({scrollTop:5600}, 'slow');
     return false;
   });
 
   $("#gh").click(function(){
-    $("html, body" ).animate({scrollTop:6000}, 'slow');
+    $("html, body" ).animate({scrollTop:6420}, 'slow');
     return false;
   });
  
@@ -185,32 +185,32 @@ if(win < 420){
 else {
 
   $("#bc").click(function(){
-    $("html, body" ).animate({scrollTop:930}, 'slow');
+    $("html, body" ).animate({scrollTop:800}, 'slow');
     return false;
   });
 
   $("#cd").click(function(){
-    $("html, body" ).animate({scrollTop:1300}, 'slow');
+    $("html, body" ).animate({scrollTop:1170}, 'slow');
     return false;
   })
  
   $("#ij").click(function(){
-    $("html, body" ).animate({scrollTop:1650}, 'slow');
+    $("html, body" ).animate({scrollTop:1530}, 'slow');
     return false;
   });
 
   $("#ef").click(function(){
-    $("html, body" ).animate({scrollTop:2250}, 'slow');
+    $("html, body" ).animate({scrollTop:2130}, 'slow');
     return false;
   });
 
   $("#fg").click(function(){
-    $("html, body" ).animate({scrollTop:2650}, 'slow');
+    $("html, body" ).animate({scrollTop:2530}, 'slow');
     return false;
   });
 
   $("#gh").click(function(){
-    $("html, body" ).animate({scrollTop:3250}, 'slow');
+    $("html, body" ).animate({scrollTop:3150}, 'slow');
     return false;
   });
 
