@@ -39,8 +39,10 @@
 
 
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
-    color: white;
+    color: #a88944;
     margin-right:25px;
+    font-size: 18px;
+    font-weight: 450;
 }
 @media (min-width: 768px){
 .col-md-2 {
@@ -72,7 +74,9 @@ table.bordered td:hover {
 background-color: #06c;
 }
 .navbar-dark .navbar-nav .nav-link {
-    color: white;
+   color: #a88944;
+   font-size: 18px;
+    font-weight: 450;
     margin-right:25px;
 }
 .navbar-dark .navbar-nav .nav-link:hover{
@@ -217,7 +221,7 @@ background-color: #06c;
 
   function scrollFunction() {
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-    document.getElementById("fixingthenav").style.boxShadow = "1px 2px 3px";
+    document.getElementById("fixingthenav").style.boxShadow = "0px 1px 2px 1px rgba(0,0,0,0.4)";
   } else {
     document.getElementById("fixingthenav").style.boxShadow = "0px 0px 0px";
   }
@@ -225,7 +229,7 @@ background-color: #06c;
     </script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark"  style="background: #a88944 !important; color: white !important" id="fixingthenav">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark"  style="background: white !important; color: #eee !important" id="fixingthenav">
       <a class="navbar-brand" href="#"><img class="nav_image" src="./Images/logo.png" style="width:100px;margin-left:112px; height: 70px; width:auto;" id="main_logo"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon" style="color:black !important"></span>
@@ -256,7 +260,7 @@ background-color: #06c;
             <li class="nav-item">
                 <a class="nav-link" href="#tarlocation" id="gh">Location</a>
               </li>
-              <li class="nav-item adjusting"><i class="fa fa-phone" aria-hidden="true"></i>
+              <li class="nav-item adjusting"><i class="fa fa-phone" aria-hidden="true" style="color: #a88944;"></i>
               <a href="tel:+919071354854" id="hi"><span style="font-weight:500; font-size: 20px; color:white; font-style: italic;" id="hii">call:9071354854</span></a></li>
         </ul>
        
