@@ -155,32 +155,32 @@ if(win < 420){
 else {
 
   $("#bc").click(function(){
-    $("html, body" ).animate({scrollTop:800}, 'slow');
+    $("html, body" ).animate({scrollTop:700}, 'slow');
     return false;
   });
 
   $("#cd").click(function(){
-    $("html, body" ).animate({scrollTop:1170}, 'slow');
+    $("html, body" ).animate({scrollTop:1070}, 'slow');
     return false;
   })
  
   $("#ij").click(function(){
-    $("html, body" ).animate({scrollTop:1530}, 'slow');
+    $("html, body" ).animate({scrollTop:1430}, 'slow');
     return false;
   });
 
   $("#ef").click(function(){
-    $("html, body" ).animate({scrollTop:2130}, 'slow');
+    $("html, body" ).animate({scrollTop:2030}, 'slow');
     return false;
   });
 
   $("#fg").click(function(){
-    $("html, body" ).animate({scrollTop:2530}, 'slow');
+    $("html, body" ).animate({scrollTop:2430}, 'slow');
     return false;
   });
 
   $("#gh").click(function(){
-    $("html, body" ).animate({scrollTop:3150}, 'slow');
+    $("html, body" ).animate({scrollTop:3000}, 'slow');
     return false;
   });
 
