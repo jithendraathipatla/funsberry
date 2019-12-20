@@ -3,8 +3,8 @@
 		$email=$_POST['email'];
 		$phone=$_POST['mobile'];
 	    $to='livexcellence1@gmail.com'; // Receiver Email ID, Replace with your email ID
-		$subject='Prestige Finsbury Park Regent';
-		$message="ProjectName:"."Prestige Finsbury Park Regent"."\n"."Email :".$email."\n"."Phone :".$phone."\n";
+		$subject='Prestige Finsbury Park';
+		$message="ProjectName:"."Prestige Finsbury Park"."\n"."Email :".$email."\n"."Phone :".$phone."\n";
 		$headers="From: ".$email;
 		if(mail($to, $subject, $message, $headers)){
 		$apiKey = urlencode("PC56D9fMjaQ-3gw9h0qV4d5KkwYZMpo5xr1McpRBYv");
@@ -25,8 +25,8 @@
 		$response = curl_exec($ch);
 		curl_close($ch);
 			echo "<h1  style=\"text-align:center\">Sent Successfully! Thank you, We will contact you shortly!</h1>";
-			echo '<h3 style="text-align:center"><a href="https://drive.google.com/open?id=0Bx_DUkwZrjd5SHFBTEpPWDhGbmFxY1VFY09lbmN3OUFIRTFZ">Click here to download Brochure</a><h3>';
-			// echo '<h3 style="text-align:center"><a href="https://drive.google.com/open?id=1RtcCxtDlIGL8dDt1tZ6WuRFZius52FNR">Click here to download Cost Sheet</a><h3>';
+			echo '<h3 style="text-align:center"><a href="https://drive.google.com/open?id=1cQjo-FwWNmCqFv_71lLac2heQyOIGTZT">Click here to download Brochure [Hyde]</a><h3>';
+			echo '<h3 style="text-align:center"><a href="https://drive.google.com/open?id=1uCIKnYTyTH27_ueX1dvAIbAG_UCtOcKd">Click here to download Brochure [Regent]</a><h3>';
 		}
 		
 	}
