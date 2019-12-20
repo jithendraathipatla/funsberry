@@ -113,11 +113,7 @@ function showSlidesFloorHyde(n) {
     slidesFloorHyde[j].style.display = "none";
   }
   slidesFloorHyde[slideIndexFloorabcd - 1].style.display = "block";
-  dotsabc[slideIndexFloorabcd - 1].className += " active";
 }
-
-
-
 
 let win = $(window).width();
 if(win < 420){
@@ -160,27 +156,27 @@ else {
   });
 
   $("#cd").click(function(){
-    $("html, body" ).animate({scrollTop:1070}, 'slow');
+    $("html, body" ).animate({scrollTop:1170}, 'slow');
     return false;
   })
  
   $("#ij").click(function(){
-    $("html, body" ).animate({scrollTop:1430}, 'slow');
+    $("html, body" ).animate({scrollTop:1530}, 'slow');
     return false;
   });
 
   $("#ef").click(function(){
-    $("html, body" ).animate({scrollTop:2030}, 'slow');
+    $("html, body" ).animate({scrollTop:2130}, 'slow');
     return false;
   });
 
   $("#fg").click(function(){
-    $("html, body" ).animate({scrollTop:2430}, 'slow');
+    $("html, body" ).animate({scrollTop:2530}, 'slow');
     return false;
   });
 
   $("#gh").click(function(){
-    $("html, body" ).animate({scrollTop:3000}, 'slow');
+    $("html, body" ).animate({scrollTop:3150}, 'slow');
     return false;
   });
 
