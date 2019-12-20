@@ -76,8 +76,48 @@ function showSlidesFloor(n) {
     dotsabc[j].className = dotsabc[j].className.replace(" active", "");
   }
   slidesFloor[slideIndexFloorabc - 1].style.display = "block";
-  dotsabc[slideIndexFloorabc - 1].className += " active";
+  
 }
+
+
+
+
+function floarplanHyde(){
+  document.getElementById("myModalFloorHyde").style.display = "block";
+}
+
+function closeModalabcd(){
+  document.getElementById("myModalFloorHyde").style.display = "none";
+}
+
+let slideIndexFloorabcd = 1;
+showSlidesFloorHyde(slideIndexFloorabcd);
+
+// Next/previous controls
+function plusSlidesFloorHyde(n) {
+  showSlidesFloorHyde(slideIndexFloorabcd += n);
+}
+
+// Thumbnail image controls
+function currentFloorHyde(n) {
+  showSlidesFloorHyde(slideIndexFloorabcd = n);
+}
+
+function showSlidesFloorHyde(n) {
+  let j;
+  let slidesFloorHyde = document.getElementsByClassName("mySlidesFloorHyde");
+  // var dotsabc = document.getElementsByClassName("demoFloor");
+  if (n > slidesFloorHyde.length) {slideIndexFloorabcd = 1}
+  if (n < 1) {slideIndexFloorabcd = slidesFloor.length}
+  for (j = 0; j < slidesFloorHyde.length; j++) {
+    slidesFloorHyde[j].style.display = "none";
+  }
+  slidesFloorHyde[slideIndexFloorabcd - 1].style.display = "block";
+  dotsabc[slideIndexFloorabcd - 1].className += " active";
+}
+
+
+
 
 let win = $(window).width();
 if(win < 420){
