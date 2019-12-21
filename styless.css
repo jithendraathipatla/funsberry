@@ -655,7 +655,7 @@ a#nav{
     display: flex!important;
     -ms-flex-preferred-size: auto;
     flex-basis: auto;
-    margin-left: 60px !important;
+    margin-left: 120px !important;
 }
 }
 
@@ -823,7 +823,7 @@ rounded-circle:hover{
 }
 
  .adjusting{
-   margin-top:6px;
+   margin-top:11px;
  }
 
  .different_images{
