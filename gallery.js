@@ -176,7 +176,7 @@ else {
   });
 
   $("#gh").click(function(){
-    $("html, body" ).animate({scrollTop:3150}, 'slow');
+    $("html, body" ).animate({scrollTop:3170}, 'slow');
     return false;
   });
 

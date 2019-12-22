@@ -112,7 +112,7 @@ background-color: #06c;
 
 .carousel-captiona {
     position: absolute;
-    top: -370px;
+    top: -410px;
     color: white;
     left: 15vh;
     text-align: justify;
@@ -167,7 +167,7 @@ background-color: #06c;
   }
   .container2 .map{
     flex:2;
-    padding:20px;
+    padding:7px;
     box-shadow: 1px 1px 3px;
   }
   
@@ -234,8 +234,21 @@ background-color: #06c;
           font-size: 14px;
         }
         .carousel-captiona {
-          left: 11vh;
-          top: -263px;
+          left: 12vh;
+          top: -55vh;
+        }
+        .animated{
+          font-size: 14px;
+        }
+        .animated_sub{
+          font-size: 14px;
+        }
+        .carousel-captiona h3{
+          font-size: 15px;
+        }
+
+        .form img{
+          margin-left: -11vh
         }
      
  }
@@ -261,9 +274,7 @@ background-color: #06c;
   margin-top: -2px;
     margin-right: 2px;
     margin-left: 4px;
- }
-
- 
+ } 
   
     </style>
     <script>
@@ -328,58 +339,8 @@ background-color: #06c;
   
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" data-interval="1000">
       <div class="carousel-inner">
-          <div class="carousel-item active">
-              <img src="./Images/prestige-finsbury-banner1.jpg" class="d-block w-100" alt="..." height="500vh" >
-              <div class="row">
-                <div class="col-md-8" >
-                  <div class="carousel-captiona">
-                  <div>
-                    <h1>Prestige Finsbury Park</h1>
-                    <h4>Upcoming 1, 2, 3 BHK</h4>
-                    <h4>Exclusive Homes In Bagalur, Bangalore</h4>
-                    <h3>₹ 33.5 Lacs Onwards </h3>
-                    <button type="button" class="btn btn-primary prestigecopy" data-toggle="modal" data-target="#exampleModal" style="animation:rocking 0.3s infinite;animation-delay:0.3s;">Price Breakup</button>
-                  </div>
-                </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="carousel-caption" >
-                        <div class="contact-box" style="background-color: rgba(0,0,0,0.7); border-radius: 5px; padding: 20px 20px;text-align:center">
-                            <form class="form-group" method="POST" action="./final_contact.php" onsubmit="return validateFirstForm()" style="margin-bottom: 0px;text-align: center;">
-                              <div class="row">
-                                <h3 style="color: white; margin-bottom: 20px; font-size:22px; padding-left:100px;">Contact Us</h3>
-                                <div class="col-md-12">
-                                  <input type="text" name="name"  placeholder="Name" required=""> 
-                                </div>
-                                <div style="height:50px;"></div>
-                                <div class="col-md-12">
-                                  <input type="email" name="email"  placeholder="Email" required="">
-                                </div>
-                                <div style="height:50px;"></div>
-                                <div class="col-md-12">
-                                  <input name="mobile" id="mobile"  placeholder="Mobile No." required="">
-                                </div>
-                                <div style="height:50px;"></div>
-                                <div class="col-md-12">
-                                <select style="width:100%;background: #eee; height:29px">
-                                  <option disabled="">Choose an option</option>
-                                  <option>Download CostSheet</option>
-                                  <option>Download Brouchere</option>
-                                  <option>Download Both</option>
-                                </select>
-                                </div>
-                                <div style="height:50px;"></div>
-                              </div>
-                              <div class="text-center" style="padding-bottom: 10px; ">
-                                <button type="submit" name="submit" class="prestigecopy">Download Brochure</button>
-                              </div>
-                            </form>
-                          </div>
-                      </div>
-                </div>
-              </div>
-            </div>
-        <div class="carousel-item">
+     
+        <div class="carousel-item active">
           <img src="./Images/prestige-finsbury-banner2.jpg" class="d-block w-100" alt="..." height="500vh" >
           <div class="row">
             <div class="col-md-8">
@@ -389,6 +350,16 @@ background-color: #06c;
                         <h1>Prestige Finsbury Park</h1>
                           <h4>Upcoming 1, 2, 3 BHK</h4>
                           <h4>Exclusive Homes In Bagalur, Bangalore</h4>
+                          <span style="background-color: #d4af37;
+                          background: linear-gradient(-45deg, #826424, #d4af37 ,#826424,#d4af37);
+                          background-size: 400% 400%;
+                          -webkit-animation: Gradient 3s ease infinite;
+                          -moz-animation: Gradient 3s ease infinite;
+                          animation: Gradient 3s ease infinite; color:#fff; padding: 5px;text-align:center;display: block;margin: 5px 0">
+                                      <span style="display: block; font-size: 1.5rem; letter-spacing: 3px">
+                               <span class="animated bounceIn infinite" style="display: block; animation-duration: 3s">Hurry! Only 1% GST</span>
+                               <span class="animated_sub" style="display: block;">PMAY benefits</span>
+                           </span>	</span>
                           <h3>₹ 33.5 Lacs Onwards </h3>
                           <button type="button" class="btn btn-primary prestigecopy" data-toggle="modal" data-target="#exampleModal" style=" animation:rocking 0.31s infinite;animation-delay:0.3s;">Price Breakup</button>
                     </div>
@@ -434,118 +405,13 @@ background-color: #06c;
           </div>
         
         </div>
-        <div class="carousel-item ">
-            <img src="./Images/prestige-finsbury-banner2.jpg" class="d-block w-100" alt="..." height="500vh" >
-            <div class="row">
-              <div class="col-md-8">
-                  <div class="carousel-captiona">
-                      <div>
-                        <h1>Prestige Finsbury Park</h1>
-                        <h4>Upcoming 1, 2, 3 BHK</h4>
-                        <h4>Exclusive Homes In Bagalur, Bangalore</h4>
-                        <h3>₹ 33.5 Lacs Onwards </h3>
-                        <button type="button" class="btn btn-primary prestigecopy" data-toggle="modal" data-target="#exampleModal" style=" animation:rocking 0.3s infinite;animation-delay:0.3s;">Price Breakup</button>
-                      </div>
-                    </div>
-              </div>
-              <div class="col-md-4">
-  
-                  <div class="carousel-caption" >
-                      <div class="contact-box" style="background-color: rgba(0,0,0,0.7); border-radius: 5px; padding: 20px 20px;text-align:center">
-                          <form class="form-group" method="POST" action="./final_contact.php" onsubmit="return validateFirstForm()" style="margin-bottom: 0px;text-align: center;">
-                            <div class="row">
-                              <h3 style="color: white; margin-bottom: 20px; font-size:22px; padding-left:100px;">Contact Us</h3>
-                              <div class="col-md-12">
-                                <input type="text" name="name"  placeholder="Name" required=""> 
-                              </div>
-                              <div style="height:50px;"></div>
-                              <div class="col-md-12">
-                                <input type="email" name="email" placeholder="Email" required="">
-                              </div>
-                              <div style="height:50px;"></div>
-                              <div class="col-md-12">
-                                <input name="mobile" type="text" placeholder="Mobile No." required="">
-                              </div>
-                              <div style="height:50px;"></div>
-                              <div class="col-md-12">
-                              <select style="width:100%;background: #eee; height:29px">
-                                <option disabled="">Choose an option</option>
-                                <option>Download CostSheet</option>
-                                <option>Download Brouchere</option>
-                                <option>Download Both</option>
-                              </select>
-                              </div>
-                              <div style="height:50px;"></div>
-                            </div>
-                            <div class="text-center" style="padding-bottom: 10px; ">
-                              <button type="submit" name="submit" class="prestigecopy">Download Brochure</button>
-                            </div>
-                          </form>
-                        </div>
-                    </div>
-              </div>
-            </div>
-          </div>
-        <div class="carousel-item">
-          <img src="./Images/prestige-finsbury-banner1.jpg" class="d-block w-100" alt="..." height="500vh">
-          <div class="row">
-              <div class="col-md-8">
-                  <div class="carousel-captiona">
-                      <div >
-                        <h1>Prestige Finsbury Park</h1>
-                        <h4>Upcoming 1, 2, 3 BHK</h4>
-                        <h4>Exclusive Homes In Bagalur, Bangalore</h4>
-                        <h3>₹ 33.5 Lacs Onwards </h3>
-                        <button type="button" class="btn btn-primary prestigecopy" data-toggle="modal" data-target="#exampleModal" style=" animation:rocking 0.3s infinite;animation-delay:0.3s;">Price Breakup</button>
-                      </div>
-                    </div>
-              </div>
-              <div class="col-md-4">
-  
-                  <div class="carousel-caption">
-                      <div class="contact-box" style="background-color: rgba(0,0,0,0.7); border-radius: 5px; padding: 20px 20px;text-align:center">
-                          <form class="form-group" method="POST" action="./final_contact.php" onsubmit="return validateFirstForm()" style="margin-bottom: 0px;text-align: center;">
-                            <div class="row">
-                              <h3 style="color: white; margin-bottom: 20px; font-size:22px; padding-left:100px;">Contact Us</h3>
-                              <div class="col-md-12">
-                                <input type="text" name="name"  placeholder="Name" required=""> 
-                              </div>
-                              <div style="height:50px;"></div>
-                              <div class="col-md-12">
-                                <input type="email" name="email"  placeholder="Email" required="">
-                              </div>
-                              <div style="height:50px;"></div>
-                              <div class="col-md-12">
-                                <input name="mobile"  type="text" placeholder="Mobile No." required="">
-                              </div>
-                              <div style="height:50px;"></div>
-                              <div class="col-md-12">
-                              <select style="width:100%;background: #eee; height:29px">
-                                <option disabled="">Choose an option</option>
-                                <option>Download CostSheet</option>
-                                <option>Download Brouchere</option>
-                                <option>Download Both</option>
-                              </select>
-                              </div>
-                              <div style="height:50px;"></div>
-                            </div>
-                            <div class="text-center" style="padding-bottom: 10px; ">
-                              <button type="submit" name="submit" class="prestigecopy">Download Brochure</button>
-                            </div>
-                          </form>
-                        </div>
-                    </div>
-              </div>
-  
-            </div>
-        </div>
       
+       
       </div>
      
     </div>
   
     <div id="adjust" style="height:40px;text-align: center; padding-top:10px">
-     
       <h3 style="margin-top:2px; color: #A88944;">About Prestige Finsbury Park</span></h3>
     </div>
     
@@ -614,7 +480,7 @@ background-color: #06c;
                   </thead>
                   
                   <tr style="background-color: #fff;">
-                    <td rowspan="3" class="her1 her2" style="font-weight: 800;color: #158140;"><br/>Hyde</td>
+                    <td rowspan="3" class="her1 her2" style="font-weight: 800;color:linear-gradient( #d3b169, rgb(212, 189, 86));;"><br/>Hyde</td>
                   </tr>
   
   
@@ -648,7 +514,7 @@ background-color: #06c;
 
                   <tbody style="color: #5c5c5c;">
                     <tr style="background-color: #fff;">
-                      <td rowspan="5" class="her1 her2" style="font-weight: 800;color: #158140;"><br/><br/>Regent</td>
+                      <td rowspan="5" class="her1 her2" style="font-weight: 800;color: linear-gradient( #d3b169, rgb(212, 189, 86));"><br/><br/>Regent</td>
                     </tr>
 
                   <tr style="background-color: #fff;">
@@ -796,13 +662,13 @@ background-color: #06c;
 							<div class="tab-pane fade show active" id="nav-home-mastar" role="tabpanel" aria-labelledby="nav-home-tab">
 								<br/>
 								<div class="card">
-									<img src="./Images/masterplan-hyde.jpg"  style="height: 500px;">
+								<a href="/Images/masterplan-hyde.jpg">	<img src="./Images/masterplan-hyde.jpg"  style="height: 500px;"></a>
 								   </div>
 							</div>
 							<div class="tab-pane fade" id="nav-profile-master" role="tabpanel" aria-labelledby="nav-profile-tab">
 								<br/>
 								<div class="card">
-								<img src="./Images/master.jpg"  style="height: 500px;">
+							<a href="Images/master.jpg"><img src="./Images/master.jpg"  style="height: 500px;"></a>	
 							   </div>
 							</div>
 						
@@ -1469,7 +1335,7 @@ background-color: #06c;
       <div class="map">
         <h3 style="margin-bottom:12px; text-align: center; color:#A88944">Finsbury Park Location</span></h3>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15541.587141169999!2d77.68125226684066!3d13.13735334816344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf98f7a5ccaac5b8e!2sPrestige%20Finsbury%20Park!5e0!3m2!1sen!2sin!4v1576378324806!5m2!1sen!2sin"
-        width="100%" height="450" frameborder="0" style="border:0"
+        width="100%" height="510" frameborder="0" style="border:0"
         allowfullscreen></iframe>
       </div>
 
@@ -1892,44 +1758,42 @@ background-color: #06c;
    crossorigin="anonymous"></script>
    <div class="closepopup popup"  >
     <div class="popup-content">
-      <h3 style="font-size: 14px;color:#495057"> Fill Form to Download Brochure</h3>
-      <hr style="border-top: 1px solid white; margin:0px !important">
-      <p><form action="./sideclick.php" onsubmit="return validateFirstForm()" method="POST"  id="frmdb" >
+      <h3 style="font-size: 14px; color:white; background:#d3b169; padding: 8px 0px; text-align: center;"> Fill Form to Download Brochure</h3>
+      <form action="./sideclick.php" onsubmit="return validateFirstForm()" method="POST"  id="frmdb" >
              <div id="sucess1"></div>               
                 <div class="inputGroup2">
-                  <input type="email" style="color:black" required name="email"   id="email1"/><br>
-                  <label for="email" style="color:#495057">*Email</label>
+                  <input type="email" style="color:black;  border: 1px solid #ced4da;padding:3px 0px;border-radius:3px;" required name="email" placeholder="Your email" id="email1"/><br>
+                  <label for="email" style="color:#000">*Email</label>
                 </div>
                 <div class="inputGroup2">
-                  <input type="number" style="color:black"  required name="mobile"  id="mobile1"/><br>
-                  <label for="mobile" style="color:#495057">*Mobile</label>
+                  <input type="number" style="color:black;  border: 1px solid #ced4da;padding:3px 0px;border-radius:3px;"  required name="mobile" placeholder="Your phone number" id="mobile1"/><br>
+                  <label for="mobile" style="color:#000">*Mobile</label>
                 </div>             
-                <div class="btn-group" style="text-align: center; ">
+                <div class="btn-group" style="text-align: center;">
                   <button type="submit" class="btn btn-primary" name="submit" value="Send">submit</button>
                 </div>
-              </form> </p>
+              </form>
     </div>  
     <a class="button" style="writing-mode: tb-rl;padding-right: 5px;">Download Brochure</a>
   </div>
   <div class="closepopup popupps">
     <div class="popup-content" style="
     height:185px;">
-      <h3 style="font-size: 14px; color:#495057"> Fill Form to Download Cost Sheet</h3>
-      <hr style="border-top: 1px solid white; margin:0px !important">
-      <p><form action="./sideclick.php" onsubmit="return validateFirstForm()" method="POST" class="callRequest" id="frmps">
+      <h3 style="font-size: 14px; color:white; background:  #d3b169; padding: 8px 0px; text-align: center;"> Fill Form to Download Cost Sheet</h3>
+      <form action="./sideclick.php" onsubmit="return validateFirstForm()" method="POST" class="callRequest" id="frmps">
              <div id="sucess2"></div>               
                 <div class="inputGroup2">
-                  <input class="input" type="email" style="color:black"  required name="email"   id="email2"/><br>
-                  <label for="email" style="color:#495057">*Email</label>
+                  <input class="input" type="email" style="color:black;  border: 1px solid #ced4da;padding:3px 0px;border-radius:3px;"  required name="email"   placeholder="Your email" id="email2"/><br>
+                  <label for="email" style="color:#000">*Email</label>
                 </div>
                 <div class="inputGroup2">
-                  <input type="number" style="color:black"  required name="mobile"  id="mobile2"/><br>
-                  <label for="mobile" style="color:#495057">*Mobile</label>
+                  <input type="number" style="color:black;  border: 1px solid #ced4da;padding:3px 0px;border-radius:3px;"  required name="mobile"  placeholder="Your Phone Number" id="mobile2"/><br>
+                  <label for="mobile" style="color:#000">*Mobile</label>
                 </div>             
                 <div class="btn-group">
                   <button type="submit" class="btn btn-primary" name="submit" value="Send">submit</button>
                 </div>
-              </form> </p>
+              </form>
     </div>  
     <a class="buttonps" style="writing-mode: tb-rl;padding-right: 5px;">Download CostSheet</a>
   </div>
@@ -1954,8 +1818,8 @@ background-color: #06c;
 
 
     <footer id="footer">
-      <div class="footer" style="background-color: #a88944;
-      border-color:#a88944 ; padding:10px; color:white; text-align:justify">
+      <div class="footer" style="background-color: #d3b169;
+      border-color:#d3b169 ; padding:10px; color:white; text-align:justify">
                  <p style="margin-bottom:0px; font-size:14px; padding:10px 30px 0px;"><strong>Disclaimer :</strong> Any content mentioned in this website is for information purpose only and prices are subjected to change without notice. This website is just for the 
                  purpose of information only and not be considered as an official website
               </p>

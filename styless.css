@@ -117,13 +117,16 @@ img.hoverjj:hover{
 .popup-content {
   background-color: white;
   box-sizing: border-box;
-  border-radius: 10px;
   color: white;
   float: left;
   height: 185px;
-  padding: 10px;
   width: 275px;
   font-size: 12px;
+  box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+.popup-content form{
+  padding:10px;
 }
 
 .closepopup{
@@ -205,7 +208,6 @@ a.button:hover{
   padding: 4px !important;
   text-align: center;
   border: none;
-  border-radius: 7px;
   margin-left: 75px;
   background: linear-gradient(-90deg, #d3b169, #000, #d3b169, #000);
   background-size: 400% 400%;
@@ -712,9 +714,9 @@ img.gallery-maintain {
 .btn-primary {
   color: #fff;
   /* background-color: #007bff; */
-  background-color: #d3b169;
+  background: linear-gradient( #d3b169, rgb(212, 189, 86));
   border-color: #d3b169;
-  box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.2);
+  box-shadow: 0px 1px 0.1px 0.1px rgba(0,0,0,0.1);
 }
 
 .btn:hover {
@@ -865,5 +867,36 @@ rounded-circle:hover{
 }
 
 
- 
+@keyframes bounceIn {
+  from,
+  20%,
+  40%,
+  60%,
+  80%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+}
+
+
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+.bounceIn {
+  -webkit-animation-duration: 0.75s;
+  animation-duration: 0.75s;
+  -webkit-animation-name: bounceIn;
+  animation-name: bounceIn;
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
 
