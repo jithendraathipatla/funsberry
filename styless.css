@@ -714,8 +714,8 @@ img.gallery-maintain {
 .btn-primary {
   color: #fff;
   /* background-color: #007bff; */
-  background: linear-gradient( #d3b169, rgb(212, 189, 86));
-  border-color: #d3b169;
+  background: #a88944;
+  border-color: #a88944;
   box-shadow: 0px 1px 0.1px 0.1px rgba(0,0,0,0.1);
 }
 
