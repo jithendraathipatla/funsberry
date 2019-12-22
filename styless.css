@@ -146,13 +146,13 @@ img.hoverjj:hover{
 }
 
 @keyframes example {
-  from {background-color: red;}
-  to {background-color: yellow;}
+  from {background-color:#000;}
+  to {background-color: #A88944;}
   25%  {top:-100px;}
 }
 @keyframes example1 {
-  from {background-color: yellow;}
-  to {background-color: red;}
+  from {background-color: #000;}
+  to {background-color: #A88944;}
 }
 
 @media (min-width: 576px){
@@ -709,9 +709,9 @@ img.gallery-maintain {
 .btn-primary {
   color: #fff;
   /* background-color: #007bff; */
-  border-color: #007bff;
-  background-color: #158140;
-  border-color: #158140;
+  background-color: #a88944;
+  border-color: #a88944;
+  box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.2);
 }
 
 .btn:hover {
