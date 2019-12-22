@@ -147,12 +147,12 @@ img.hoverjj:hover{
 
 @keyframes example {
   from {background-color:#000;}
-  to {background-color: #A88944;}
+  to {background-color: #d3b169;}
   25%  {top:-100px;}
 }
 @keyframes example1 {
   from {background-color: #000;}
-  to {background-color: #A88944;}
+  to {background-color: #d3b169;}
 }
 
 @media (min-width: 576px){
@@ -207,7 +207,7 @@ a.button:hover{
   border: none;
   border-radius: 7px;
   margin-left: 75px;
-  background: linear-gradient(-90deg, #A88944, #000, #A88944, #000);
+  background: linear-gradient(-90deg, #d3b169, #000, #d3b169, #000);
   background-size: 400% 400%;
   animation: Gradient 3s ease infinite;
 }
@@ -712,8 +712,8 @@ img.gallery-maintain {
 .btn-primary {
   color: #fff;
   /* background-color: #007bff; */
-  background-color: #a88944;
-  border-color: #a88944;
+  background-color: #d3b169;
+  border-color: #d3b169;
   box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.2);
 }
 
@@ -787,7 +787,7 @@ rounded-circle:hover{
   border-bottom: 1.5px solid rgba(0, 0, 0, .08);
   /* background-color: #76d56fe8; */
   background-clip: padding-box;
-  /* border: 1px solid #a88944; */
+  /* border: 1px solid #d3b169; */
   border-radius: .25rem;
   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
@@ -837,7 +837,7 @@ rounded-circle:hover{
   color: white;
   padding: 5px 59px;
   border: 1px solid transparent;
-  background: linear-gradient(-90deg, #A88944, #000, #A88944, #000);
+  background: linear-gradient(-90deg, #d3b169, #000, #d3b169, #000);
   background-size: 400% 400%;
   animation: Gradient 3s ease infinite;
 }
