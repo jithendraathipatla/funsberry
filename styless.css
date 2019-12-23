@@ -921,3 +921,10 @@ rounded-circle:hover{
   background-color: white;
   grid-column-gap: 10px;
 }
+
+@media only screen and (max-width: 375px){
+  .carousel-captiona {
+    left: 11vh;
+    top: -39vh;
+  }
+}
