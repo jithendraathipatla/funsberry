@@ -381,7 +381,7 @@ background-color: #06c;
                             </div>
                             <div style="height:50px;"></div>
                             <div class="col-md-12">
-                              <input type="number" name="mobile"  placeholder="Mobile No." required="">
+                              <input name="mobile"  placeholder="Mobile No." required="">
                             </div>
                             <div style="height:50px;"></div>
                             <div class="col-md-12">
@@ -513,7 +513,7 @@ background-color: #06c;
                             </div>
                             <div style="height:50px;"></div>
                             <div class="col-md-12">
-                              <input type="number" name="mobile"  placeholder="Mobile No." required="">
+                              <input name="mobile"  placeholder="Mobile No." required="">
                             </div>
                             <div style="height:50px;"></div>
                             <div class="col-md-12">
@@ -849,9 +849,9 @@ background-color: #06c;
                   <div class="tab-pane fade" id="Master-plan" role="tabpanel" aria-labelledby="Master-plan-tab">
 					<br>
 					<div class="nav nav-tabs" id="nav-tab" role="tablist">
-						<a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home-mastar" role="tab" aria-controls="nav-home" aria-selected="true">Hyde</a>
 						<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile-master" role="tab" aria-controls="nav-profile" aria-selected="false">Regent</a>
-					</div>
+            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home-mastar" role="tab" aria-controls="nav-home" aria-selected="true">Hyde</a>
+          </div>
                     <div class="row">
                         <div class="col-md-1"></div>
                       <div class="col-md-10">
@@ -862,7 +862,7 @@ background-color: #06c;
 							<img src="./Images/masterplan-hyde.jpg"  style="height: 500px;" onclick="displaymaster()">
 								   </div>
 							</div>
-							<div class="tab-pane fade" id="nav-profile-master" role="tabpanel" aria-labelledby="nav-profile-tab">
+							<div class="tab-pane fade show active" id="nav-profile-master" role="tabpanel" aria-labelledby="nav-profile-tab">
 								<br/>
 								<div class="card">
 				           <img src="./Images/master.jpg"  style="height: 500px;" onclick="displaymaster1()">	
@@ -1254,7 +1254,56 @@ background-color: #06c;
                       <h4 style="text-align: center;padding-top:10px;color:#a88944">Comming Soon!</h4>
                       </div>
                       <div class="tab-pane fade" id="Exterior" role="tabpanel" aria-labelledby="Exterior-tab">
-                        <h4 style="text-align: center;padding-top:10px;color:#a88944">Comming Soon!</h4>
+                        <br>
+                      <div class="row">
+                        <div class="col-md-3">
+                          <div class="card">
+                           <img src="./Images/prestige-finsbury-banner2.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                             <img src="./Images/prestige-finsbury-banner2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                              <div class="card">
+                               <img src="./Images/park-regent-clubhouse1.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                              </div>
+                          </div>
+                          <div class="col-md-3">
+                              <div class="card">
+                               <img src="./Images/gall1.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                              </div>
+                          </div>
+                      </div>
+                      <br>
+                      <div class="row">
+                          <div class="col-md-3">
+                            <div class="card">
+                             <img src="./Images/gall2.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
+                            </div>
+                          </div>
+
+                          <div class="col-md-3">
+                            <div class="card">
+                             <img src="./Images/banner3.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
+                            </div>
+                          </div>
+
+                          <div class="col-md-3">
+                            <div class="card">
+                             <img src="./Images/banner4.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
+                            </div>
+                          </div>
+
+                          <div class="col-md-3">
+                            <div class="card">
+                             <img src="./Images/banner5.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
+                            </div>
+                          </div>
+                      
+                        </div>
                         </div>
                   </div>
                 </div>
@@ -1551,7 +1600,7 @@ background-color: #06c;
               <input type="email" name="client_mail_id" id="bb" class="form-control" placeholder="Enter Your Email" required=""><br>
               <label for="phone" style="color: #495057; font-weight: 500;">Phone:</label>
               <div class="complexity">
-              <select name="countryCode" id="" style="width: 115px;" class="form-control">
+              <select name="countryCode" id="aaaselect" style="width: 115px;" class="form-control">
                 <option data-countryCode="IN" value="91">Ind (+91)</option>
                   <option data-countryCode="DZ" value="213">Algeria (+213)</option>
                   <option data-countryCode="AD" value="376">Andorra (+376)</option>
