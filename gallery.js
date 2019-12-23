@@ -135,7 +135,7 @@ function closeModalMasterplan1(){
 
 $(document).ready(function(){
   $('.customer-logos').slick({
-    slidesToShow: 6,
+    slidesToShow: 5,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 1000,
