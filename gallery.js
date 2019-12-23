@@ -132,7 +132,6 @@ function closeModalMasterplan1(){
   document.querySelector("#myModalMasterplan1").style.display = "none";
 }
 
-
 let win = $(window).width();
 if(win < 420){
   $("#bc").click(function(){
