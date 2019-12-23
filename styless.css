@@ -73,6 +73,7 @@ img.nav_image{
 .carousel-inner {
   margin-top: 0px; 
  }
+
 }
 
 .carousel-inner {
@@ -667,6 +668,10 @@ a#nav{
 @media only screen and (max-width: 600px){
 .container2 {
     display: inherit !important;
+}
+
+.modal-header {
+  padding-left: 9.3vh;
 }
 
 #contactUsForm{
