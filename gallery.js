@@ -113,7 +113,25 @@ function showSlidesFloorHyde(n) {
     slidesFloorHyde[j].style.display = "none";
   }
   slidesFloorHyde[slideIndexFloorabcd - 1].style.display = "block";
+};
+
+
+function displaymaster(){
+   document.querySelector("#myModalMasterplan").style.display = "block";
 }
+
+function closeModalMasterplan(){
+  document.querySelector("#myModalMasterplan").style.display = "none";
+}
+
+function displaymaster1(){
+  document.querySelector("#myModalMasterplan1").style.display = "block";
+}
+
+function closeModalMasterplan1(){
+  document.querySelector("#myModalMasterplan1").style.display = "none";
+}
+
 
 let win = $(window).width();
 if(win < 420){

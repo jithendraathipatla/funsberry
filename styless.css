@@ -900,3 +900,7 @@ rounded-circle:hover{
   animation-fill-mode: both;
 }
 
+
+.card img{
+  cursor: pointer;
+}
