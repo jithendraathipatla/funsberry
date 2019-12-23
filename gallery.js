@@ -168,33 +168,42 @@ if(win < 420){
 else {
 
   $("#bc").click(function(){
+    document.title="finsbery park overview"
     $("html, body" ).animate({scrollTop:700}, 'slow');
     return false;
   });
 
   $("#cd").click(function(){
+    document.title="Prestige Finsbury Park | Prestige Finsbury Park Bagalur Road | Prestige Finsbury Park Configuration"
     $("html, body" ).animate({scrollTop:1170}, 'slow');
     return false;
   })
  
   $("#ij").click(function(){
+    document.title="Prestige Finsbury Park | Prestige Finsbury Park Bagalur Road | Prestige Finsbury Park Gallery"
     $("html, body" ).animate({scrollTop:1530}, 'slow');
     return false;
   });
 
   $("#ef").click(function(){
+    document.title="Prestige Finsbury Park | Prestige Finsbury Park Bagalur Road | Prestige Finsbury Park costing"
     $("html, body" ).animate({scrollTop:2130}, 'slow');
     return false;
   });
 
   $("#fg").click(function(){
+    document.title="Prestige Finsbury Park | Prestige Finsbury Park  Bagalur Road | Prestige Finsbury Park Amineties"
     $("html, body" ).animate({scrollTop:2530}, 'slow');
     return false;
   });
 
   $("#gh").click(function(){
+    document.title="Prestige Finsbury Park | Prestige Finsbury Park Bagalur Road | Prestige Finsbury Park Location | Reviews"
     $("html, body" ).animate({scrollTop:3170}, 'slow');
     return false;
+  });
+  $("#ab").click(function(){
+    document.title="Prestige Finsbury Park Bagalur Road | Prestige recently launched | New Launched | Properties in KIADB Area"
   });
 
 }
