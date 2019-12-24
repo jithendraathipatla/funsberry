@@ -241,14 +241,16 @@ a.button:hover{
 
 
   .phonelink{
-    position: fixed; /* Lock location always on the scree */
-    bottom: 0; /* Set to the bottom */
-    right: 0; /* Set to the right */
-    margin: 22px; /* Add space around background */
+    position: fixed;
+    bottom: 108px;
+    right: 0;
+    margin: 22px 36px;
   }
   .phoneicon{
-    width: 49px; /* Set width of icon */
-    height: 49px; /* Set height of icon */
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 2px 3px rgba(0,0,0,0.5);
   }
   @media screen and (max-width: 480px){
     .lgscreenphone{
