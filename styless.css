@@ -937,3 +937,9 @@ rounded-circle:hover{
     top: -39vh;
   }
 }
+
+@media all and (max-width: 600px){
+  .slider {
+    padding-left: 38px;
+}
+}
