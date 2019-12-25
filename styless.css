@@ -2,6 +2,9 @@
   .row.proper {
     margin-left: 26px !important;
 }
+.prewidth{
+  width:90px !important;
+}
 .modal-dialog {
   position: relative;
   width: auto;
@@ -931,10 +934,40 @@ rounded-circle:hover{
   padding-left: 60px;
 }
 
-@media only screen and (max-width: 375px){
+
+
+@media only screen and (min-width: 414px){
   .carousel-captiona {
-    left: 11vh;
-    top: -39vh;
+    left: 14vh !important;
+    top: -57vh !important;
+  }
+}
+
+@media only screen and (min-width: 411px){
+  .carousel-captiona {
+    left: 12vh !important;
+    top: -51vh !important;
+  }
+}
+
+@media screen and (min-width: 411px){
+  .carousel-captiona {
+    left: 14vh !important;
+    top: -58vh !important;
+  }
+}
+
+@media screen and (min-width: 411px){
+  .carousel-captiona {
+    left: 11vh !important;
+    top: -52vh !important;
+  }
+}
+
+@media screen and (min-width: 375px){
+  .carousel-captiona {
+    left: 11vh !important;
+    top: -52vh !important;
   }
 }
 
@@ -942,4 +975,12 @@ rounded-circle:hover{
   .slider {
     padding-left: 38px;
 }
+.rera h6{
+  font-size: 9px;
+}
+.carousel-captiona {
+  left: 12vh;
+  top: -68vh;
+}
+
 }
