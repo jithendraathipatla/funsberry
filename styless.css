@@ -91,6 +91,7 @@ img.nav_image{
 .modal-header {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  padding:10px 0px;
   padding-left:24.3vh;
   border-bottom: none;
 }
