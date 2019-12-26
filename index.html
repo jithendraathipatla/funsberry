@@ -462,7 +462,6 @@ background-color: #06c;
                        <br/>
                        <div style="text-align: center;">
                         <button type="button" class="btn btn-primary prestigecopy" data-toggle="modal" data-target="#exampleModal" style=" animation:rocking 0.31s infinite;animation-delay:0.3s;">Price Breakup</button>
-
                        </div>
                 </div>
               </div>
@@ -547,8 +546,9 @@ background-color: #06c;
                           <h6>Regent:PRM/KA/RERA/1251/472/PR/191206/003056 </h6>
                           </div>
                           <br/>
-                          <button type="button" class="btn btn-primary prestigecopy" data-toggle="modal" data-target="#exampleModal" style=" animation:rocking 0.31s infinite;animation-delay:0.3s;">Price Breakup</button>
-                    </div>
+                          <div style="text-align: center;">
+                            <button type="button" class="btn btn-primary prestigecopy" data-toggle="modal" data-target="#exampleModal" style=" animation:rocking 0.31s infinite;animation-delay:0.3s;">Price Breakup</button>
+                           </div>                    </div>
                   </div>
             </div>
             <div class="col-md-4">
@@ -631,8 +631,10 @@ background-color: #06c;
                           <h6>Regent:PRM/KA/RERA/1251/472/PR/191206/003056 </h6>
                           </div>
                           <br/>
-                          <button type="button" class="btn btn-primary prestigecopy" data-toggle="modal" data-target="#exampleModal" style=" animation:rocking 0.31s infinite;animation-delay:0.3s;">Price Breakup</button>
-                    </div>
+                          <div style="text-align: center;">
+                            <button type="button" class="btn btn-primary prestigecopy" data-toggle="modal" data-target="#exampleModal" style=" animation:rocking 0.31s infinite;animation-delay:0.3s;">Price Breakup</button>
+                           </div>  
+                          </div>            
                   </div>
             </div>
             <div class="col-md-4">
@@ -1449,7 +1451,7 @@ background-color: #06c;
     <div class="container2" id="tarlocation">
       <div class="map">
         <h3 style="margin-bottom:12px; text-align: center; color:#A88944;text-decoration: underline;text-decoration-color: gainsboro;">Finsbury Park Location</span></h3>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15541.587141169999!2d77.68125226684066!3d13.13735334816344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf98f7a5ccaac5b8e!2sPrestige%20Finsbury%20Park!5e0!3m2!1sen!2sin!4v1576378324806!5m2!1sen!2sin"
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15541.291396491108!2d77.684435!3d13.142024!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd0be65d7c84b08a7!2sPrestige%20Finsbury%20Park!5e0!3m2!1sen!2sin!4v1577365700493!5m2!1sen!2sin"
         width="100%" height="600" frameborder="0" style="border:0"
         allowfullscreen></iframe>
       </div>
@@ -1713,7 +1715,7 @@ background-color: #06c;
       <div class="modal-content">
          
           <div class="modal-header">
-         <img src="./Images/finsbury.svg" height="40px;">
+         <img src="./Images/finsbury.svg" height="55px;">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -1726,12 +1728,12 @@ background-color: #06c;
               padding: 20px 15px;
               border-radius: 9px;">
                 <label for="name" style="color: #495057; font-weight: 500;">Name:</label><br>
-                <input type="text" name="client_name" id="aaa" class="form-control" placeholder="Enter Your Name" required=""><br>
+                <input type="text" name="client_name" id="aaa" class="form-control" placeholder="Enter Your Name" required="">
                 <label for="email" style="color: #495057;font-weight: 500;">Email ID:</label><br>
-                <input type="email" name="client_mail_id" id="bbb" class="form-control" placeholder="Enter Your Email" required=""><br>
+                <input type="email" name="client_mail_id" id="bbb" class="form-control" placeholder="Enter Your Email" required="">
                 <label for="phone" style="color: #495057;font-weight: 500;">Phone:</label><br>
                 <div class="complexity">
-                  <select name="countryCode" id="" style="width:85px; padding:0px" class="form-control">
+                  <select name="countryCode" id="" style="width:120px; padding:0px" class="form-control">
                     <option data-countryCode="IN" value="91">Ind (+91)</option>
                       <option data-countryCode="DZ" value="213">Algeria (+213)</option>
                       <option data-countryCode="AD" value="376">Andorra (+376)</option>
@@ -1952,10 +1954,13 @@ background-color: #06c;
                   <input type="number" name="client_phone_number" minlength="10" maxlength="13" id="ccc" class="form-control" placeholder="Enter Your Phone" required=""><br>
                 </div>
                 <div style="text-align: center;">
-                <button type="submit" class="prestigecopy" name="submit" value="Send">Submit</button>
+                <button type="submit" class="prestigecopy" name="submit" value="Send" style="border-radius: 2px ;">Get Instant Callback</button>
                 </div>
             </form>
-        </div>       
+        </div>   
+        <div style="width: 100%; background:  linear-gradient(101deg, #d4af37, #000); color:white;text-align: center; padding:10px 0px">
+        <a  href="tel:01234567890"> <img src="./Images/svg/call-back.svg">  <span style="color:white">9071354854</span></a> 
+        </div>    
       </div>
     </div>
   </div>
@@ -2345,5 +2350,8 @@ background-color: #06c;
   })();
   
 </script>
+
+
+
    </body>
 </html>

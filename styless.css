@@ -7,12 +7,12 @@
 }
 .modal-dialog {
   position: relative;
-  width: auto;
-  margin: .5rem;
-  pointer-events: none;
-  margin-left: 48px;
-  margin-top: 48px;
-  width:76%
+    width: auto;
+    margin: .5rem;
+    pointer-events: none;
+    margin-left: 10px;
+    margin-top: 80px;
+    width: 95%;
 }
 #firscontent{
   display: none;
@@ -91,7 +91,7 @@ img.nav_image{
 .modal-header {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  padding-left:17.3vh;
+  padding-left:24.3vh;
   border-bottom: none;
 }
 
@@ -164,8 +164,8 @@ img.hoverjj:hover{
 
 @media (min-width: 576px){
 .modal-dialog {
-    max-width: 360px;
-    margin: 1.75rem auto;
+    max-width: 500px;
+    margin: 5.05rem auto;
 }
 }
 
@@ -983,4 +983,15 @@ rounded-circle:hover{
   top: -68vh;
 }
 
+}
+.modal-content input{
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.modal-content label{
+  
+}
+
+.modal-content select{
+  font-size: 15px;
 }

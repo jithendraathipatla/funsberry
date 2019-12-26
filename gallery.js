@@ -156,6 +156,13 @@ $(document).ready(function(){
   });
 });
 
+function autopopup(){
+  setTimeout(function() {
+    $('#exampleModal').modal();
+}, 8000);
+}
+autopopup();
+
 let win = $(window).width();
 if(win < 420){
   $("#bc").click(function(){
@@ -231,4 +238,3 @@ else {
   });
 
 }
-
